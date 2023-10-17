@@ -13,11 +13,27 @@ to note:
 - If we get a HTTP error response (Code 40X) from your script, or a malformed response (does not begin with CON or END), we will terminate the session gracefully.
 - Your Menu should not contain special characters as the telcos are unable to render such content, which could lead to disruptions in accessing your USSD services.
 
-### parseNetworkResponse
+### API parameters
 
-A `Response` encapsulates a parsed response for delivery, for a given type
-(such as string, image, or JSON). Here is a sample implementation of
-`parseNetworkResponse()`:
+The API makes a `HTTP POST` request to your server with the parameters shown below, you can read the data sent from the form fields of the request. Content-Type: `application/x-www-form-urlencoded`. This request is made when the user interacts with your whatsappbot.
+
+## Parameters
+
+[`sessionID`]
+
+sessionId `String`
+A unique value generated when the session starts and sent every time a mobile subscriber response has been received.
+
+[**SetUp  A Simple callbackURL in JavaScript**]
+
+Learn how to create a simple callbakURl using javascript.
+
+[**SetUp  A Simple callbackURL in Java**]
+Learn how to create a simple callbakURl using javascript.
+
+[**SetUp  A Simple callbackURL in Java**]
+
+Learn how to create a simple callbakURl using javascript.
 
 *Kotlin*
 
