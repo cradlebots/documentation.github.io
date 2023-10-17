@@ -19,9 +19,8 @@ The API makes a `HTTP POST` request to your server with the parameters shown bel
 
 ## Parameters
 
-[`sessionID`]
+**sessionID**`String`
 
-sessionId `String`
 A unique value generated when the session starts and sent every time a mobile subscriber response has been received.
 
 [**SetUp  A Simple callbackURL in JavaScript**]
