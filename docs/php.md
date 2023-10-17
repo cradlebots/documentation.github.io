@@ -33,7 +33,7 @@ The API makes an HTTP POST request to your server with the following parameters,
 ## Sample PHP Script
 
 Here is a sample PHP script to handle incoming requests:
-
+*php*
 ```php
 <?php
 // Read the variables sent via POST from our API
@@ -65,4 +65,6 @@ if ($text == "") {
 // Echo the response back to the API
 header('Content-type: text/plain');
 echo $response;
+
 ?>
+```
