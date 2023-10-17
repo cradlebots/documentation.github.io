@@ -51,15 +51,15 @@ if ($text == "") {
     // Business logic for the first-level response
     $response = "CON Choose an animal to know its offspring\n";
     $response .= "1. Cow\n";
-    $response .= "1. Chicken\n";
-    $response .= "1. Dog\n";
+    $response .= "2. Chicken\n";
+    $response .= "3. Dog\n";
 
 } else if ($text == "2") {
     // Business logic for the first-level response
     $response = "CON Choose an animal to know its offspring\n";
     $response .= "1. Cow\n";
-    $response .= "1. Chicken\n";
-    $response .= "1. Dog\n";
+    $response .= "2. Chicken\n";
+    $response .= "3. Dog\n";
 } else if ($text == "1*1") {
     // This is a second-level response where the user selected 1 in the first instance
     // This is a terminal request. Note how we start the response with END
