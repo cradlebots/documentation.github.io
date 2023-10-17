@@ -26,62 +26,23 @@ Cradlebots is developed on [GitHub](https://github.com/google/volley) and
 contains the main request dispatch pipeline as well as a set of commonly applicable utilities,
 available in the cradlebot "toolbox." The easiest way to set a bot  is to set up a callback url and think of a unique keyword(for shared boot) other wise just set a callbak url (for dedicated bots)
 
-<!-- *Groovy*
 
-```groovy
-dependencies {
-    implementation 'com.android.volley:volley:1.2.1'
-}
-```
-
-*Kotlin*
-
-```kotlin
-dependencies {
-    implementation("com.android.volley:volley:1.2.1")
-}
-```
-
-You can also clone the Volley repository and set it as a library project:
-
-1. Git clone the repository by typing the following at the command line:
-
-    ```console
-    git clone https://github.com/google/volley
-    ```
-
-2. Import the downloaded source into your app project as an Android library module as described
-   in [Create an Android Library](https://developer.android.com/studio/projects/android-library). -->
 
 ## Lessons
 
 [**Set  A Simple callbackURL in PHP**](./php.md)
 
-Learn how to create a simple callbakURl using the php language.
+Learn how to create a simple callbakURl using php.
 
-[**SetUp  A Simple callbackURL in JavaScript**](./simple.md)
+[**SetUp  A Simple callbackURL in Node**](./node.md)
 
-Learn how to create a simple callbakURl using javascript.
+Learn how to create a simple callbakURl using node.
 
-[**SetUp  A Simple callbackURL in Java**](./simple.md)
+[**SetUp  A Simple callbackURL in Java**](./java.md)
 
-Learn how to create a simple callbakURl using javascript.
+Learn how to create a simple callbakURl using java.
 
-[**SetUp  A Simple callbackURL in Java**](./simple.md)
+[**SetUp  A Simple callbackURL in Python**](./python.md)
 
-Learn how to create a simple callbakURl using javascript.
+Learn how to create a simple callbakURl using python.
 
-
-<!-- [**Set up RequestQueue**](./requestqueue.md)
-
-Learn how to set up a `RequestQueue`, and how to implement a singleton
-pattern to create a `RequestQueue` that lasts the lifetime of your app.
-
-[**Make a standard request**](./request.md)
-
-Learn how to send a request using one of Volley's out-of-the-box request types
-(raw strings, images, and JSON).
-
-[**Implement a custom request**](./request-custom.md)
-
-Learn how to implement a custom request. -->
