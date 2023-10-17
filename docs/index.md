@@ -1,38 +1,28 @@
-# Volley overview
+# cradlebots overview
 
-Volley is an HTTP library that makes networking for Android apps easier and most importantly,
-faster. Volley is available on [GitHub](https://github.com/google/volley).
+Craddlebot is an infrustruture that makes bot development easier, faster and economincal
 
-Volley offers the following benefits:
+Cradlebot offers the following benefits:
 
-- Automatic scheduling of network requests.
-- Multiple concurrent network connections.
-- Transparent disk and memory response caching with standard HTTP 
-  [cache coherence](https://en.wikipedia.org/wiki/Cache_coherence).
-- Support for request prioritization.
-- Cancellation request API. You can cancel a single request, or you can set blocks or scopes of 
-  requests to cancel.
-- Ease of customization, for example, for retry and backoff.
-- Strong ordering that makes it easy to correctly populate your UI with data fetched asynchronously 
-  from the network.
+- Dynamic callback url configuartion.
+- Easy set up.
+- Shared bot using keywords.
+- Dedicated bot to meet ones needs.
+- Real Time analytical of ones whatsapp bot request
+- Sms and whatsapp bot using a single callback url.
 - Debugging and tracing tools.
 
-Volley excels at RPC-type operations used to populate a UI, such as fetching a page of
-search results as structured data. It integrates easily with any protocol and comes out of
-the box with support for raw strings, images, and JSON. By providing built-in support for
-the features you need, Volley frees you from writing boilerplate code and allows you to
-concentrate on the logic that is specific to your app.
-Volley is not suitable for large download or streaming operations, since Volley holds
-all responses in memory during parsing. For large download operations, consider using an
-alternative like
-[`DownloadManager`](https://developer.android.com/reference/android/app/DownloadManager).
+Cradlebots Aims to make development for developers and enterprises easier and affordable buy using a shared bot individuals are able to test the market fit of their product befour launching via  a dedicated bot.
 
-The core Volley library is developed on [GitHub](https://github.com/google/volley) and
+At cradlebot our main vision is to empower reaseerch and development not only for developer but also for anyoneele who might wanna get things started with bots
+With a shared bot individuals get a clear insight on how their bot could impact the target market making thir development not only affordable but a blisss.
+Dedicatedbots, once individuals have valdated their bot, they can now transist to dedicatedbot, a dedicated bot is phonenumber solely for and individual bots, here individual can run both the whatsapp and sms bot on a single phone number.Great perfomance and speed is archieved on dedicated bots 
+
+Cradlebots is developed on [GitHub](https://github.com/google/volley) and
 contains the main request dispatch pipeline as well as a set of commonly applicable utilities,
-available in the Volley "toolbox." The easiest way to add Volley to your project is to add the
-following dependency to your app's build.gradle file:
+available in the cradlebot "toolbox." The easiest way to set a bot  is to set up a callback url and think of a unique keyword(for shared boot) other wise just set a callbak url (for dedicated bots)
 
-*Groovy*
+<!-- *Groovy*
 
 ```groovy
 dependencies {
@@ -57,16 +47,28 @@ You can also clone the Volley repository and set it as a library project:
     ```
 
 2. Import the downloaded source into your app project as an Android library module as described
-   in [Create an Android Library](https://developer.android.com/studio/projects/android-library).
+   in [Create an Android Library](https://developer.android.com/studio/projects/android-library). -->
 
 ## Lessons
 
-[**Send a simple request**](./simple.md)
+[**SetUp  A Simple callbackURL in PHP**](./simple.md)
 
-Learn how to send a simple request using the default behaviors of Volley, and how
-to cancel a request.
+Learn how to create a simple callbakURl using the php language.
 
-[**Set up RequestQueue**](./requestqueue.md)
+[**SetUp  A Simple callbackURL in JavaScript**](./simple.md)
+
+Learn how to create a simple callbakURl using javascript.
+
+[**SetUp  A Simple callbackURL in Java**](./simple.md)
+
+Learn how to create a simple callbakURl using javascript.
+
+[**SetUp  A Simple callbackURL in Java**](./simple.md)
+
+Learn how to create a simple callbakURl using javascript.
+
+
+<!-- [**Set up RequestQueue**](./requestqueue.md)
 
 Learn how to set up a `RequestQueue`, and how to implement a singleton
 pattern to create a `RequestQueue` that lasts the lifetime of your app.
@@ -78,4 +80,4 @@ Learn how to send a request using one of Volley's out-of-the-box request types
 
 [**Implement a custom request**](./request-custom.md)
 
-Learn how to implement a custom request.
+Learn how to implement a custom request. -->
