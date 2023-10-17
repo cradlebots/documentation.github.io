@@ -14,8 +14,10 @@ Cradlebot offers the following benefits:
 
 Cradlebots Aims to make development for developers and enterprises easier and affordable buy using a shared bot individuals are able to test the market fit of their product befour launching via  a dedicated bot.
 
-At cradlebot our main vision is to empower reaseerch and development not only for developer but also for anyoneele who might wanna get things started with bots
+At cradlebot our main vision is to empower reaseerch and development not only for developer but also for anyoneele who might wanna get things started with bots.
+
 With a shared bot individuals get a clear insight on how their bot could impact the target market making thir development not only affordable but a blisss.
+
 Dedicatedbots, once individuals have valdated their bot, they can now transist to dedicatedbot, a dedicated bot is phonenumber solely for and individual bots, here individual can run both the whatsapp and sms bot on a single phone number.Great perfomance and speed is archieved on dedicated bots 
 
 Cradlebots is developed on [GitHub](https://github.com/google/volley) and
@@ -51,7 +53,7 @@ You can also clone the Volley repository and set it as a library project:
 
 ## Lessons
 
-[**SetUp  A Simple callbackURL in PHP**](./simple.md)
+[**SetUp  A Simple callbackURL in PHP**](./php.md)
 
 Learn how to create a simple callbakURl using the php language.
 
